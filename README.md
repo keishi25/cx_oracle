@@ -1,3 +1,3 @@
 # work-codes
-・cx_oracle <\br>
+##・cx_oracle 
 pythonからOracle DBに接続を可能にするモジュール
