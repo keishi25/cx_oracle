@@ -38,7 +38,7 @@ if __name__ == '__main__':
     sample inputは、設定ファイルから取得
     sql_queryはget_queryモジュールから取得
     """
-    sample_input = "keishi25/password@10.23.110.199:1521/orcl"
+    sample_input = "keishi25/password@11.11.111.111:1521/orcl"
     sql_query = "SELECT * FROM table"
 
     connection, cursor = get_connect(sample_input)
