@@ -13,7 +13,7 @@ def server(host, port, backlog, sock_buffer_size):
         # ２．ソケット登録
         sock.bind((host, port))
         # ３．ソケット接続準備
-        sock.listen(backlog)
+        sock.listen(backlog)  # backlog=サーバにacceptされていないクライアントからの接続要求を保持しておくキューの最大長
         # ４．ソケット接続
         while True:
             conn, address = sock.accept()
