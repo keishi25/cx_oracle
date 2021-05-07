@@ -1,5 +1,6 @@
 import io
 
+
 def calc1(i):
     n = i + i
     return n
@@ -15,6 +16,6 @@ def calc2(i):
     return n
 
 
-
-
 if __name__ == '__main__':
+    None
+
