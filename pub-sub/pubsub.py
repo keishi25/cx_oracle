@@ -12,6 +12,7 @@ class EventChannel(object):
                 )
             )
 
+            
     def subscribe(self, event, callback):
         if not callable(callback):
             raise ValueError("callback must be callable")
